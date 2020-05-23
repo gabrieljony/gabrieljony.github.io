@@ -1,8 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
 
-const Image = () => {
+const UnderConstruction = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(relativePath: { eq: "gabriel.jpg" }) {
@@ -15,7 +14,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <h1>WEBSITE - WE ARE UNDER CONSTRUCTION</h1>
 }
 
-export default Image
+export default UnderConstruction
