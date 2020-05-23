@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div className="photo">
       <Image />
     </div>
     <h1>Web Developer</h1>
@@ -20,7 +20,6 @@ const IndexPage = () => (
         collaborative.
       </p>
       <p>I develop projects mostly with JavaScript using React and Node.</p>
-    
     </section>
   </Layout>
 )

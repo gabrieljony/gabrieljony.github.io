@@ -14,7 +14,7 @@ const UnderConstruction = () => {
     }
   `)
 
-  return <h1>WEBSITE - WE ARE UNDER CONSTRUCTION</h1>
+  return <h1 className="construction">WEBSITE - WE ARE UNDER CONSTRUCTION</h1>
 }
 
 export default UnderConstruction

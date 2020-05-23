@@ -19,13 +19,13 @@ const Layout = ({ children }) => {
   return (
     <React.Fragment>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div>
+      <hr />
+      <div className="container">
         <main>{children}</main>
       </div>
       <footer>
-        © {new Date().getFullYear()}, Copyright: Gabriel Jony - Site hosted on
-        {` `}
-        <a href="https://github.com/">GitHub</a> Built with
+        © {new Date().getFullYear()}, Copyright: Gabriel Jony - Site hosted on{" "}
+        <a href="https://github.com/"> GitHub</a> Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
