@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Gabriel Jony`,
     description: `Este website foi desenvolvido para compartilhamento e ajudar nas ferramentas de TI..`,
-    author: `@gatsbyjs`,
+    author: `@gabrieljonyb`,
     email: `gabriel_jony@hotmail.com`,
   },
   plugins: [
@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Gbariel Jony`,
+        short_name: `Gabriel Jony`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#20232a`,
+        theme_color: `#20232a`,
         display: `minimal-ui`,
         icon: `src/images/logo.webp`, // This path is relative to the root of the site.
       },
