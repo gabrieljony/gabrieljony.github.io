@@ -8,13 +8,14 @@ const Projects = () => (
   <Layout>
     <SEO title="Projects" />
     <h1>Projects</h1>
-    <h2>Some of my featured projects, see more on my GitHub. Gatsby Course</h2>
+    <h2>Some of my featured projects, see more on my{` `}
+        <a href="https://github.com/gabrieljony?tab=repositories">GitHub</a>.</h2>
     <section>
-      <UnderConstruction></UnderConstruction>
       <ul>
         <li></li>
       </ul>
     </section>
+    <UnderConstruction></UnderConstruction>
   </Layout>
 )
 

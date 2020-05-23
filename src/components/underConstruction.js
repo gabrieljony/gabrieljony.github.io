@@ -14,7 +14,11 @@ const UnderConstruction = () => {
     }
   `)
 
-  return <h1 className="construction">WEBSITE - WE ARE UNDER CONSTRUCTION</h1>
+  return (
+    <React.Fragment>
+      <h1 className="construction">WEBSITE - WE ARE UNDER CONSTRUCTION</h1>
+    </React.Fragment>
+  )
 }
 
 export default UnderConstruction

@@ -8,12 +8,15 @@ const Stack = () => (
   <Layout>
     <SEO title="Stack" />
     <h1>Stack</h1>
-    <h2>I have experience with many modern tools, I select them for my projects depending on the usage.</h2>
-    <h3>Here is my stack on StackShare:</h3>
+    <h2>
+      I have experience with many modern tools, I select them for my projects
+      depending on the usage.
+    </h2>
+    <h3>Here is my stack:</h3>
     <section>
-    <UnderConstruction></UnderConstruction>
       <p></p>
     </section>
+    <UnderConstruction></UnderConstruction>
   </Layout>
 )
 

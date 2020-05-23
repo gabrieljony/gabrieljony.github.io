@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
+import SocialLinks from "../components/SocialLinks/SocialLinks"
 
 const IndexPage = () => (
   <Layout>
@@ -10,6 +11,7 @@ const IndexPage = () => (
     <div className="photo">
       <Image />
     </div>
+    <SocialLinks />
     <h1>Web Developer</h1>
     <h2>Hello, I am Gabriel Jony!</h2>
     <section>
@@ -19,7 +21,11 @@ const IndexPage = () => (
         productivity and communication, it helps me stay organized and
         collaborative.
       </p>
-      <p>I develop projects mostly with JavaScript using React and Node.</p>
+      <p>
+        I develop projects mainly with JavaScript using React, Vue, Angular and
+        Node. I have great knowledge in the Java language, with the Spring Boot.
+        Skills with Mysql Database, Postegre and Oracle.
+      </p>
     </section>
   </Layout>
 )

@@ -8,10 +8,12 @@ const Blog = () => (
   <Layout>
     <SEO title="Blog" />
     <h1>Blog</h1>
-    <h2>Follow me on Twitter and Medium to read more topics of tech.</h2>
+    <h2>On{` `}
+        <a href="https://gabrieljony.netlify.app/">My Blog</a> I create more technology topics.</h2>
     <section>
-      <p><UnderConstruction></UnderConstruction></p>
+      <p></p>
     </section>
+    <UnderConstruction></UnderConstruction>
   </Layout>
 )
 
