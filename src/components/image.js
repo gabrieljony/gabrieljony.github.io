@@ -15,7 +15,7 @@ const Image = () => {
     }
   `)
 
-  return <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+  return <Img fixed={data.placeholderImage.childImageSharp.fixed} alt="Gabriel Jony"/>
 }
 
 export default Image
