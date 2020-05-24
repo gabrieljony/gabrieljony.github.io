@@ -6,7 +6,11 @@ import UnderConstruction from "../components/underConstruction"
 
 const Stack = () => (
   <Layout>
-    <SEO title="Stack" />
+    <SEO
+      title="Stack"
+      description="Full Stack developer, developing apps and web pages"
+      keywords="GitHub, Java, Javascript, React, Vuejs, Angular, Node, Full Stack, developer, API, Gabriel Jony"
+    />
     <h1>Stack</h1>
     <h2>
       I have experience with many modern tools, I select them for my projects

@@ -7,7 +7,11 @@ import SocialLinks from "../components/SocialLinks/SocialLinks"
 
 const About = () => (
   <Layout>
-    <SEO title="About" />
+    <SEO
+      title="About"
+      description="Full Stack developer, developing apps and web pages"
+      keywords="Java, Javascript, React, Vuejs, Angular, Node, Full Stack, developer, API, Gabriel Jony"
+    />
     <h1>About</h1>
     <SocialLinks />
     <section>

@@ -7,7 +7,11 @@ import SocialLinks from "../components/SocialLinks/SocialLinks"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO
+      title="Home"
+      description="Full Stack developer, developing apps and web pages"
+      keywords="Java, Javascript, React, Vuejs, Angular, Node, Full Stack, developer, API, Gabriel Jony"
+    />
     <div className="photo">
       <Image />
     </div>
@@ -24,7 +28,7 @@ const IndexPage = () => (
       <p>
         I develop projects mainly with JavaScript using React, Vue, Angular and
         Node. I have great knowledge in the Java language, with the Spring Boot.
-        Skills with Mysql Database, Postegre and Oracle.
+        Skills with Mysql Database, PostgreSQL and Oracle.
       </p>
     </section>
   </Layout>

@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Gabriel Jony`,
-    description: `Este website foi desenvolvido para compartilhamento e ajudar nas ferramentas de TI..`,
+    description: `This site was created to share and help with development tools.`,
     author: `@gabrieljonyb`,
     email: `gabriel_jony@hotmail.com`,
+    siteUrl: `https://gabrieljony.github.io/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
