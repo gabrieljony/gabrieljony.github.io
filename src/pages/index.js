@@ -16,7 +16,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <SocialLinks />
-    <h1>Web Developer</h1>
+    <h1>Web Developer!</h1>
     <h2>Hello, I am Gabriel Jony!</h2>
     <section>
       <p>
