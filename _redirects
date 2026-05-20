@@ -1,0 +1,8 @@
+
+# gatsby-adapter-netlify start
+/page-data/using-dsg/page-data.json  /.netlify/builders/ssr-engine-odb  200
+/page-data/using-ssr/page-data.json  /.netlify/functions/ssr-engine  200
+/using-dsg/  /.netlify/builders/ssr-engine-odb  200
+/using-ssr/  /.netlify/functions/ssr-engine  200
+
+# gatsby-adapter-netlify end
