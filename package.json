@@ -37,6 +37,8 @@
     "build": "gatsby build",
     "deploy": "gh-pages -d public -b master",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",

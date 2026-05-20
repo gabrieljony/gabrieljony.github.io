@@ -1,31 +1,33 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { memo } from "react"
 
+import { NAV_ITEMS } from "../constants/navigation"
+
+/**
+ * Componente Header da aplicação
+ * 
+ * @component
+ * @param {Object} props - Propriedades do componente
+ * @param {string} props.siteTitle - Título do site
+ * @returns {JSX.Element} Header renderizado
+ */
 const Header = ({ siteTitle }) => (
   <header>
     <h1>
       <Link to="/">{siteTitle}</Link>
     </h1>
-    <div>
-      <ul className="menus">
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/blog">Blog</Link>
-        </li>
-        <li>
-          <Link to="/unicode">Unicode</Link>
-        </li>
-        <li>
-          <Link to="/projects">Projects</Link>
-        </li>
-        <li>
-          <Link to="/stack">Stack</Link>
-        </li>
+    <nav>
+      <ul className="menus" role="navigation" aria-label="Menu principal">
+        {NAV_ITEMS.map((item) => (
+          <li key={`nav-item-${item.path}`}>
+            <Link to={item.path} activeClassName="active">
+              {item.label}
+            </Link>
+          </li>
+        ))}
       </ul>
-    </div>
+    </nav>
   </header>
 )
 
@@ -34,7 +36,9 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: "",
 }
 
-export default Header
+Header.displayName = "Header"
+
+export default memo(Header)
